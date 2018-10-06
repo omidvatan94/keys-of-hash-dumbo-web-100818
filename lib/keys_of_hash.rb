@@ -14,6 +14,6 @@ class Hash
   
 end
 
-hello = Hash.new
 
-hello.keys_of 
+
+
