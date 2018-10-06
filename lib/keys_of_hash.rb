@@ -1,4 +1,5 @@
 class Hash
+  
   def keys_of(*values)
     array_of_values = []
     values.each do |value|
@@ -10,4 +11,9 @@ class Hash
     end
     array_of_values
   end
+  
 end
+
+hello = Hash.new
+
+hello.keys_of 
